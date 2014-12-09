@@ -17,8 +17,7 @@ def is_valid (credit_number)
   		else
 			total += number
   		end
-  		i += 1
-  		print "Total: #{total}\n"
+  		i += 1  		
   	end  	    
   	if ((10 - (total % 10)) == last_number)
   		true
